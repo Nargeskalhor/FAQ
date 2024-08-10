@@ -125,13 +125,10 @@ footer{
 }
 .faq {
    width: 500px;
-   height: 30px;
+  
    border: 3px solid  rgb(13, 13, 13);
    padding: 0 10%;
    margin: 0 23%;
-}
-.faq:hover{
-height: 100px;
 }
 
 
