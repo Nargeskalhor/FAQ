@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+ 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+    list-style: none;
+    background:rgb(221, 151, 193);
+}
+.nav-l {position: relative;
+left: 2%;
+    display: inline-block;
+    position: relative;
+}
+.nav-a {
+    
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+.face {
+    width: 100%;
+    background:rgb(221, 151, 193);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.nav-a:hover{
+    background:rgb(203, 133, 175);
+}
+ .nav-l:hover ul.face {
+    display: block;
+}
+.shop {
+    width: 30px;
+    height:30px;
+    position: relative;
+   left: 35%;
+top: 8px;
+}
+.shop:active {
+  background-color:rgb(203, 133, 175);
+}
+.search-1 {
+    width: 20px;
+    height:14px;
+    position: relative;
+    right: 10px ;
+
+}
+.search {position: relative;
+    left: 2%;
+    
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+ 
+    border:  solid rgb(221, 151, 193);
+color: rgb(9, 9, 9) ;
+}
+.search:active{
+    border: 1px solid black;
+   transition:background-color rgb(197, 105, 160) 2s ease-in-out 20ms;
+}
+
+.login {
+    position:relative ;
+    left: 34%;
+    width: 120px;
+    height:25px;
+    border-radius: 15px;
+border: 1px;
+color: rgb(9, 9, 9);
+}
+.login:hover {
+    background-color:rgb(203, 133, 175) ;
+    border: 1px solid black;
+}
+
+#grad1 {
+    font-style: italic;
+    font-size: larger;
+    text-align: center ;
+    height: 60px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(151, 95, 151), rgb(152, 208, 180));
+  }
+ 
+
+/* The first line of every <p> element. */
+p::first-line {
+    color: rgb(12, 12, 13);
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-size: xx-large;
+  }
+  
+
+.image {
+/* margin:2.5% 2% ; */
+padding: 0;
+width: 49.5%;
+height: 400px;
+}
+.image1 {
+    /* margin: 2.5% 2%; */
+   
+ padding: 0;
+ width:49.9%;
+height: 400px;
+}
+footer{
+    background-color: rgb(221, 151, 193);
+ 
+   padding:0;
+}
+.text {
+    text-align: center;
+    font-style: italic;
+
+}
+.faq {
+   width: 500px;
+   height: 30px;
+   border: 3px solid  rgb(13, 13, 13);
+   padding: 0 10%;
+   margin: 0 23%;
+}
+.faq:hover{
+height: 100px;
+}
+
+
+
+ body{
+    background-color:rgb(95, 110, 129);
+}
+@media only screen and (max-width:600px) {
+body {
+    background-color: blueviolet;
+}
+}
+  
